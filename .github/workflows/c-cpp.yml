@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build:pyramid.c
 
     runs-on: ubuntu-latest
 
