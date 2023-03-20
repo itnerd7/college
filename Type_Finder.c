@@ -16,30 +16,14 @@ int main()
     else if (ch>=48 && ch<=57)
     printf("Entered Value is a Number.\n");
 
-    /*Checking if Entered Value is a Vowel or a Consonant using a nested Switch Case.*/
-    else 
-    {
-        switch(ch)
-        {   /*Checking for Vowels.*/
-            case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
-            case 'A':
-            case 'E':
-            case 'I':
-            case 'O':
-            case 'U':
-            printf("Entered Value is a Vowel.\n");
-            break;
+   /*Checking if Entered Value is a Vowel or not.*/
+    else if((ch=='a')||(ch=='e')||(ch=='i')||(ch=='o')||(ch=='u')||(ch=='A')||(ch=='E')||(ch=='I')||(ch=='O')||(ch=='U'))
+    printf("Entered Value is a Vowel.");
 
-            /*Checking for Consonants.*/
-            default:
-            printf("Entered Value is a Consonant.\n");
-            break;
-        }    
-    }
+    /*Checking if Entered Value is a Consonant or not.*/
+    else
+    printf("Entered Value is a Consonant.");
+    
 
     return 0;
 }
