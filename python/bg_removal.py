@@ -1,3 +1,7 @@
+#This code removes white background from signature images, turning them into transparent pngs.
+#Prequisites: Jupyter Notebook, Opencv-python, Pil
+#Run in jupyter notebook after placing input.jpg and the code in the same folder.
+
 import cv2
 from PIL import Image
 
